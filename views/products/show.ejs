@@ -19,7 +19,16 @@
       </li>
       <li>Category: <a href="/products?category=<%=product.category%>">
           <%=product.category%>
-        </a></li>
+        </a>
+      </li>
+      <li>
+        <%=product.farm.name %>
+      </li>
+      <li>
+        <a href="/farms/<%=product.farm.id%>">
+          <%=product.farm.name %>
+        </a>
+      </li>
 
     </ul>
 
